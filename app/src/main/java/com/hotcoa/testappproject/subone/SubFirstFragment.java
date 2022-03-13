@@ -16,11 +16,6 @@ import com.hotcoa.testappproject.R;
 
 public class SubFirstFragment extends Fragment {
 
-    private SubFirstViewModel mViewModel;
-
-    public static SubFirstFragment newInstance() {
-        return new SubFirstFragment();
-    }
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
@@ -28,11 +23,5 @@ public class SubFirstFragment extends Fragment {
         return inflater.inflate(R.layout.sub_first_fragment, container, false);
     }
 
-    @Override
-    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
-        super.onActivityCreated(savedInstanceState);
-        mViewModel = new ViewModelProvider(this).get(SubFirstViewModel.class);
-        // TODO: Use the ViewModel
-    }
 
 }

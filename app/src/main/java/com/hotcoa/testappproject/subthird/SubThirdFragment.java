@@ -16,11 +16,6 @@ import com.hotcoa.testappproject.R;
 
 public class SubThirdFragment extends Fragment {
 
-    private SubThirdViewModel mViewModel;
-
-    public static SubThirdFragment newInstance() {
-        return new SubThirdFragment();
-    }
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
@@ -28,11 +23,5 @@ public class SubThirdFragment extends Fragment {
         return inflater.inflate(R.layout.sub_third_fragment, container, false);
     }
 
-    @Override
-    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
-        super.onActivityCreated(savedInstanceState);
-        mViewModel = new ViewModelProvider(this).get(SubThirdViewModel.class);
-        // TODO: Use the ViewModel
-    }
 
 }
