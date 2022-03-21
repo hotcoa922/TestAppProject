@@ -20,6 +20,7 @@ public class SubFirstFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
+        System.out.println("HEllo World");
         return inflater.inflate(R.layout.sub_first_fragment, container, false);
     }
 
