@@ -18,7 +18,7 @@ public class Analyze {
     public static String maTest()
     {
         String result_string = "";
-        String string = "안녕";
+        String string = "안녕하세요 반가";
         try {
             MorphemeAnalyzer ma = new MorphemeAnalyzer();
             ma.createLogger(null);
