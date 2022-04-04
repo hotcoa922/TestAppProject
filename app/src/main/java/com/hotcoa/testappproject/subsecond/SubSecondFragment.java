@@ -1,7 +1,5 @@
 package com.hotcoa.testappproject.subsecond;
 
-import androidx.lifecycle.ViewModelProvider;
-
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -19,7 +17,7 @@ public class SubSecondFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.sub_second_fragmentttttttt_fragment, container, false);
+        return inflater.inflate(R.layout.sub_second_fragment, container, false);
     }
 
 }

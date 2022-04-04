@@ -16,7 +16,6 @@ import com.hotcoa.testappproject.R;
 
 public class SubFirstFragment extends Fragment {
 
-
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
